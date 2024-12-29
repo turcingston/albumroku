@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    background-image: url("pozadifoto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    margin-top: auto;
+    background-color: rgba(41, 41, 46, 0.95);
+    border-radius: 10px;
+    text-align: center;
+    width: 11%;
+
+}
+
+.container {
+    position: relative;
+    background-color: rgba(41, 41, 46, 0.95);
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerform {
+    position: relative;
+    background-color: rgba(41, 41, 46, 0.95);
+    padding-left: 50px; 
+    padding-right: 50px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    right: 8%;
+    line-height: 15px;
+}
+
+.containerhledani {
+    position: relative;
+    background-color: rgba(41, 41, 46, 0.95);
+    padding-left: 50px; 
+    padding-right: 50px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+    text-align: center;
+    
+}
+
+.containerhodnoceni {
+    position: relative;
+    background-color: rgba(41, 41, 46, 0.95);
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hlavicka {
+    color: #ff0000;
+    background-color: rgba(41, 41, 46, 0.95);
+    
+}
+
+.nadpisy{
+    color: #ececec;
+    text-align: center;
+    background-color: rgba(41, 41, 46, 0.95);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+}
+.nadpis {
+    color: #ececec;
+    text-align: center;
+    background-color: rgba(41, 41, 46, 0.95);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+}
+
+img{
+    opacity: 0.8;
+}
+
+header {
+    color: #ececec;
+    text-align: center;
+    background-color: rgba(41, 41, 46, 0.95);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 1);
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid rgba(41, 41, 46, 0.95);
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+
